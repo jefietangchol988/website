@@ -1,0 +1,279 @@
+/* Importing Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bx.bxs-star {
+  font-size: 24px; /* Set the size of the star */
+  color: #FFD700; /* Set the color of the star */
+  margin-right: 5px; /* Add some spacing between stars */
+}
+
+/* Define the checked star icon */
+.bx.bxs-star.checked {
+  color: #FFD700; /* Set the color of the checked star */
+}
+
+.star {
+  font-size: 24px; /* Adjust the size of the stars */
+  color: #FFD700; /* Set the color of the stars */
+}
+
+@media (max-width: 768px) {
+  .star {
+    font-size: 18px; /* Adjust the size of the stars for smaller screens */
+  }
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px;
+  background-color: #333; /* Background color for the header */
+  color: #fff; /* Text color for the header */
+}
+
+header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.navbar .logo {
+  color: #fff;
+  font-weight: 600;
+  font-size: 2.1rem;
+  text-decoration: none;
+}
+
+.navbar .logo span {
+  color: #C06B3E;
+}
+
+.navbar .menu-links {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  position: absolute;
+  right: 30px; /* Adjust as needed */
+  top: 50%; /* Adjust as needed */
+  transform: translateY(-50%);
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.navbar a:hover {
+  color: #C06B3E;
+}
+
+.hero-section {
+  height: 100vh;
+  background-image: url("../src/images/bg1.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  color: #fff; /* Text color for the hero section */
+}
+
+.hero-section .content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.hero-section .content h2 {
+  font-size: 1.2rem;
+  max-width: 600px;
+  line-height: 50px;
+  margin-top: 150px;
+}
+
+.hero-section .content p {
+  font-weight: 200;
+  max-width: 600px;
+  margin-top: 15px;
+}
+
+
+
+#close-menu-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+#hamburger-btn {
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+footer {
+  background-color: #333; 
+  color: #fff; 
+  text-align: center; 
+  padding: 10px; 
+  font-size: 15px; /* Set the font size for the footer */
+}
+
+.hero-section .content button a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+
+/* Apply styles to the product containers */
+h1{
+	margin-top: 150px;
+	text-align: center;
+	padding: 20px;
+}
+
+.product1,
+.product2,
+.product3, 
+.product4,
+.product5,
+.product6,
+.product7,
+.product8,
+.product9,
+.product10,
+.product11,
+.product12,
+.product13,
+.product14,
+.product15,
+.product16{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    width: 300px;
+    display: inline-block;
+}
+
+.product1 img,
+.product2 img,
+.product3 img, 
+.product3 img,
+.product4 img,
+.product5 img,
+.product6 img,
+.product7 img,
+.product8 img,
+.product9 img,
+.product10 img,
+.product11 img,
+.product12 img,
+.product13 img,
+.product14 img,
+.product15 img,
+.product16 img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product1 h1,
+.product2 h1,
+.product3 h1, 
+.product4 h1,
+.product5 h1,
+.product6 h1,
+.product7 h1,
+.product8 h1,
+.product9 h1,
+.product10 h1,
+.product11 h1,
+.product12 h1,
+.product13 h1,
+.product14 h1,
+.product15 h1,
+.product16 h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product1 h3,
+.product2 h3,
+.product3 h3,
+.product4 h3,
+.product5 h3,
+.product6 h3,
+.product7 h3,
+.product8 h3,
+.product9 h3,
+.product10 h3,
+.product11 h3,
+.product12 h3,
+.product13 h3,
+.product14 h3,
+.product15 h3,
+.product16 h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product1 p,
+.product2 p,
+.product3 p, 
+.product4 p,
+.product5 p,
+.product6 p,
+.product7 p,
+.product8 p, 
+.product9 p,
+.product10 p,
+.product11 p,
+.product12 p,
+.product13 p,
+.product14 p,
+.product15 p,
+.product16 p{
+    margin-bottom: 10px;
+}
+
+.product1 button,
+.product2 button,
+.product3 button,
+.product4 button, 
+.product5 button,
+.product6 button,
+.product7 button,
+.product8 button,
+.product9 button, 
+.product10 button,
+.product11 button,
+.product12 button,
+.product13 button,
+.product14 button,
+.product15 button,
+.product16 button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
